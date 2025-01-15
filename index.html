@@ -16,8 +16,8 @@
 
             <img class="w-20 md:w-fit dark:bg-white dark:rounded-sm" src="img/c4u full logo_2022 1.png" alt="">
 
-            <div>
-                <ul class="flex flex-row items-center gap-1 md:gap-5 text-[10px] md:text-xl dark:text-white">
+            <div class="hidden md:block">
+                <ul class="flex flex-row items-center gap-1 md:gap-5 text-[10px] md:text-xl  dark:text-white">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li class="text-[#F44335]"><a href="#">Upskill</a></li>
@@ -354,5 +354,22 @@
             <p class="text-[10px] md:text-[16px] text-[#20484F] pt-4 md:pt-8 dark:text-gray-400">Linkedin</p>
         </div>
     </section>
+
+    <!-- This is footer section-->
+
+    <footer class="text-[#20484F] text-center text-xs md:text-xl border-t pt-2 pb-5 w-full dark:text-white">
+        Copyright 2024 Creatives For You LTD
+    </footer>
+
+
+    <script>
+        const htmlTag = document.getElementById("htmlTag");
+        document.getElementById("switch").addEventListener("click", function () {
+            htmlTag.classList.toggle("dark");
+        });
+    </script>
+
+</body>
+</html>
 
 
